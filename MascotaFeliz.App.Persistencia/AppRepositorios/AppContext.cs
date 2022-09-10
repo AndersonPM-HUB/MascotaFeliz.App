@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore; //import
 using MascotaFeliz.App.Dominio;//clases 
 
 namespace MascotaFeliz.App.Persistencia
-{
+{ //clase que permite mapeo de datos 
     public class AppContext : DbContext //herenda de una clase para la conexion DBCONTEXT
     {
         //creacion de las tablas en la BD
